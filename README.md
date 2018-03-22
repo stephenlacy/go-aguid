@@ -3,6 +3,7 @@
 A **G**lobally **U**nique **ID**entifier (GUID) generator in Go.
 
 [![GoDoc](https://godoc.org/github.com/stevelacy/go-aguid?status.svg)](https://godoc.org/github.com/stevelacy/go-aguid)
+[![Build Status](https://img.shields.io/travis/stevelacy/go-aguid.svg)](https://travis-ci.org/stevelacy/go-aguid)
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
 
 
