@@ -34,9 +34,3 @@ func Aguid(str string) (string, error) {
 
 	return hash, nil
 }
-
-func replaceCharacter(str string, r rune, index int) string {
-	out := []rune(str)
-	out[index] = r
-	return string(out)
-}
