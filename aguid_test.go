@@ -54,6 +54,10 @@ func TestDuplication(t *testing.T) {
 	if str != str2 {
 		t.Error("Strings do not match")
 	}
+	str3, _ := Aguid("second string")
+	if str3 == str {
+		t.Error("Strings should not match")
+	}
 }
 
 func TestRandomString(t *testing.T) {
